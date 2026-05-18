@@ -1,0 +1,19 @@
+{
+  "include": ["src", "e2e", "playwright.config.ts", "vite.config.mts"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es2016",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  }
+}
